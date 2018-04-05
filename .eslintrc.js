@@ -1,31 +1,31 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'jest': true,
-    'es6': true,
-    'node': true
+  env: {
+    browser: true,
+    jest: true,
+    es6: true,
+    node: true,
   },
-  'extends': [
-    'airbnb', 'prettier'
-  ],
-  'plugins': ['prettier'],
-  'rules': {
+  extends: ['airbnb', 'prettier'],
+  plugins: ['prettier'],
+  rules: {
     'prettier/prettier': [
-      'error', {
-        'semi': false,
-        'singleQuote': true,
-        'trailingComma': 'es5'
-      }
+      'error',
+      {
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'es5',
+      },
     ],
-    "react/jsx-filename-extension": [
-      1, {
-        "extensions": [".js", ".jsx"]
-      }
-    ]
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.js', '.jsx'],
+      },
+    ],
   },
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true
-    }
-  }
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
 }
