@@ -17,6 +17,11 @@ module.exports = {
         'trailingComma': 'es5'
       }
     ],
+    "react/jsx-filename-extension": [
+      1, {
+        "extensions": [".js", ".jsx"]
+      }
+    ]
   },
   'parserOptions': {
     'ecmaFeatures': {
